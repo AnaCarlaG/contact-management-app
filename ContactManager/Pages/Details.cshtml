@@ -1,0 +1,22 @@
+﻿@page
+@model ContactManager.Pages.DetailsModel
+@{
+    ViewData["Title"] = "Detalhes";
+
+    <h1>Detalhes do Contato</h1>
+
+    <div class="mb-3">
+        <strong>Nome:</strong>@Model.Customers.Name
+    </div>
+
+  @*  <div class="mb-3">
+        <strong>Contato:</strong>@Model.Customers.Contact
+    </div>
+
+    <div class="mb-3">
+        <strong>E-mail:</strong>@Model.Customers.EmailAddress
+    </div> *@
+
+    <a asp-page="/Edit" asp-route-Id="@Model.Customers.Id" class="btn btn-warning">Editar</a>
+    <a asp-page="/Index" class="btn btn-secondary">Voltar</a>
+}

@@ -16,9 +16,9 @@ namespace ContactManager.Pages
         }
 
         ///// <summary>
-        ///// Método para retornar todos os contatos não deletados 
+        ///// Return all undeleted contacts
         ///// </summary>
-        ///// <returns>Lista de contatos não deletados</returns>
+        ///// <returns>List of undeleted contacts</returns>
         //public async Task OnGetAsync()
         //{
         //    Customers = await _context.Customers.Where(c => !c.isDeleted)

@@ -7,13 +7,13 @@ namespace ContactManager.Models
     {
         public int Id { get; set; }
         [Required]
-        [MinLength(6, ErrorMessage = "O nome deve ter pelo menos 6 caracteres.")]
+        [MinLength(6, ErrorMessage = "The name needs to have 6 characters")]
         public string Name { get; set; }
         //[Required]
-        //[RegularExpression(@"^\d{9}", ErrorMessage ="O número de contato deve conter exatamente 9 digítos.")]
+        //[RegularExpression(@"^\d{9}", ErrorMessage ="The contact number shoud be 9 digits")]
         //public string Contact { get; set; }
         //[Required]
-        //[EmailAddress(ErrorMessage ="E-mail inválido.")]
+        //[EmailAddress(ErrorMessage ="Invalid e-mail")]
         //public string EmailAddress { get; set; }
         //public bool isDeleted { get; set; } = false;
     }

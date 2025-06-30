@@ -15,15 +15,19 @@ namespace ContactManager.Pages
         public string ErrorMessage { get; set; }
         public void OnGet() { }
 
+        /// <summary>
+        /// Sign in
+        /// </summary>
+        /// <returns></returns>
         public async Task<IActionResult> OnPostAsync() { 
             //if(Username == null || Password == null)
             //{
             //    return;
             //}
-            if(UserName == "admin" && Password == "12345")
+            if(Username == "admin" && Password == "12345")
             {
                 var claims = new List<Claim> {
-                new Claim(ClaimTypes.Name, UserName)
+                new Claim(ClaimTypes.Name, Username)
                 };
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);

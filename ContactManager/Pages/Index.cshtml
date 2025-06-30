@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lista de Contatos";
+}
+
+<h1>Contatos</h1>
+
+<a asp-page="/Create" class="btn btn-primary">Novo Contato</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Contato</th>
+            <th>Email</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in Model.Customers)
+        {
+            <tr>
+                <td>@contact.Name</td>
+               @*  <td>@contact.Contact</td>
+                <td>@contact.EmailAddress</td> *@
+                <td>
+                    <a asp-page="/Details" asp-route-id="@contact.Id" class="btn btn-info btn-sm">Detalhes</a>
+                    <a asp-page="/Edit" asp-route-id="@contact.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@contact.Id" style="display:inline">
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Deseja excluir esse contato?')">Excluir</button>
+                    </form>
+                    </td>
+                </tr>
+        }
+        </tbody>
+    </table>
+

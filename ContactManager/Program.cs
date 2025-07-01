@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseMySql(builder.Configuration.GetConnectionString("MariaDB"),
                 new MySqlServerVersion(new Version(10, 6))));
@@ -32,6 +35,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
                             options.LoginPath = "/Login");
 
 builder.Services.AddAuthorization();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI( c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json/", "API V1");
+       // c.RoutePrefix = string.Empty; // opcional se quiser UI na raiz
+    });
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using System;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,10 +24,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddRazorPages();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options => {
+                .AddCookie(options =>
+                {
                     options.LoginPath = "/Login";
                     options.AccessDeniedPath = "/AccessDenied";
-                    });
+                });
 
 builder.Services.AddAuthorization();
 
@@ -38,9 +40,16 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     var context = services.GetRequiredService<ApplicationDbContext>();
 
-    // Garante que o banco está criado
+    if (context != null && context.Database.GetDbConnection().State != ConnectionState.Open)
+    {
+        context.Database.OpenConnection();
+
+        // Run EnsureCreated() to create the database and any pending migrations
+        context.Database.EnsureCreated();
+    }
+    // Ensures that the bank is created
     context.Database.EnsureCreated();
-    // Inicializa os dados
+    // Initialize the data
     DbInitializer.Initialize(context);
 }
 
@@ -48,10 +57,10 @@ using (var scope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI( c =>
+    app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json/", "API V1");
-       // c.RoutePrefix = string.Empty; // opcional se quiser UI na raiz
+        // c.RoutePrefix = string.Empty; // opcional se quiser UI na raiz
     });
 }
 

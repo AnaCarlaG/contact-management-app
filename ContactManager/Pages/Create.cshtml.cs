@@ -12,7 +12,7 @@ namespace ContactManager.Pages
     {
         private readonly ApplicationDbContext _context;
         [BindProperty]
-        public Customers Customers { get; set; } = new();
+        public Customers _Customers { get; set; } = new();
 
         public CreateModel(ApplicationDbContext context)
         {
@@ -23,12 +23,13 @@ namespace ContactManager.Pages
         /// Add new contact
         /// </summary>
         /// <returns></returns>
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid) return Page();
 
-            _context.Customers.Add(Customers);
+            _context.Customers.Add(_Customers);
             await _context.SaveChangesAsync();
+
             return RedirectToPage("Index");
         }
 

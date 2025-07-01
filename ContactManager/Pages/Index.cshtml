@@ -22,17 +22,17 @@
         {
             <tr>
                 <td>@contact.Name</td>
-               @*  <td>@contact.Contact</td>
-                <td>@contact.EmailAddress</td> *@
+                <td>@contact.Contact</td>
+                <td>@contact.EmailAddress</td>
                 <td>
                     <a asp-page="/Details" asp-route-Id="@contact.Id" class="btn btn-info btn-sm">Details</a>
                     <a asp-page="/Edit" asp-route-Id="@contact.Id" class="btn btn-warning btn-sm">Edit</a>
                     <form method="post" asp-page-handler="Delete" asp-route-Id="@contact.Id" style="display:inline">
                         <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Do you wish to delete?')">Delete</button>
                     </form>
-                    </td>
-                </tr>
+                </td>
+            </tr>
         }
-        </tbody>
-    </table>
+    </tbody>
+</table>
 

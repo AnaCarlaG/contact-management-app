@@ -6,26 +6,28 @@
     <h1>Editar Contato</h1>
 
     <form method="post">
+        <input type="hidden" asp-for="Customers.Id" />
+
         <div class="form-group">
             <label asp-for="Customers.Name" class="form-label">Name</label>
             <input asp-for="Customers.Name" class="form-control" />
-            <span asp-asp-validation-for="Customers.Name" class="text-danger"></span>
+            <span asp-validation-for="Customers.Name" class="text-danger"></span>
         </div>
 
-        @* <div class="form-group mt-2">
+         <div class="form-group mt-2">
              <label asp-for="Customers.Contact" class="form-label">Contact</label>
              <input asp-for="Customers.Contact" class="form-control" />
-             <span asp-asp-validation-for="Customers.Contact" class="text-danger"></span>
+             <span asp-validation-for="Customers.Contact" class="text-danger"></span>
          </div>
 
          <div class="form-group mt-2">
              <label asp-for="Customers.EmailAddress" class="form-label">E-mail</label>
              <input asp-for="Customers.EmailAddress" class="form-control" />
-             <span asp-asp-validation-for="Customers.Contact" class="text-danger"></span>
-         </div> *@
+             <span asp-validation-for="Customers.Contact" class="text-danger"></span>
+         </div> 
 
-        <button type="submit" class="btn btn-success mt-3">Salvar</button>
-        <a asp-page="Index" class="btn btn-secondary mt-3">Cancelar</a>
+        <button type="submit" class="btn btn-success mt-3">Save</button>
+        <a asp-page="Index" class="btn btn-secondary mt-3">Cancel</a>
     </form>
 
     @section Scripts {

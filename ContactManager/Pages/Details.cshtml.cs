@@ -26,10 +26,17 @@ namespace ContactManager.Pages
         /// <returns></returns>
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            Customers = await _context.Customers.FirstOrDefaultAsync(c => c.Id == id /*&& !c.isDeleted*/);
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Customers = await _context.Customers.FindAsync(id);
 
             if (Customers == null)
+            {
                 return NotFound();
+            }
 
             return Page();
         }

@@ -25,9 +25,12 @@ namespace ContactManager.Pages
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async Task<IActionResult> OnGetAsync(int id)
+        public async Task<IActionResult> OnGetAsync(int? id)
         {
-            Customers = await _context.Customers.FirstOrDefaultAsync(c => c.Id == id/* && !c.isDeleted*/);
+            if (id == null)
+                return NotFound();
+
+            Customers = await _context.Customers.FindAsync(id);
             
             if(Customers == null) return NotFound();
 
@@ -38,7 +41,7 @@ namespace ContactManager.Pages
         /// Edit contact
         /// </summary>
         /// <returns></returns>
-        public async Task<IActionResult> Edit()
+        public async Task<IActionResult> OnPostAsync()
         {
             if(!ModelState.IsValid) return Page();
 

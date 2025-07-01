@@ -15,30 +15,34 @@ namespace ContactManager.Pages
             _context = context;
         }
 
-        ///// <summary>
-        ///// Return all undeleted contacts
-        ///// </summary>
-        ///// <returns>List of undeleted contacts</returns>
-        //public async Task OnGetAsync()
-        //{
-        //    Customers = await _context.Customers.Where(c => !c.isDeleted)
-        //        .OrderBy(c => c.Name)
-        //        .ToListAsync();
-        //}
+        /// <summary>
+        /// Return all undeleted contacts
+        /// </summary>
+        /// <returns>List of undeleted contacts</returns>
+        public async Task OnGetAsync()
+        {
+            Customers = await _context.Customers.Where(c => !c.isDeleted)
+                .OrderBy(c => c.Name)
+                .ToListAsync();
+        }
 
-        ///// <summary>
-        ///// Soft Delete
-        ///// </summary>
-        ///// <returns></returns>
-        //public async Task<IActionResult> OnDeleteAsync(int id)
-        //{
-        //    var contact = await _context.Customers.FindAsync(id);
-        //    if(contact != null)
-        //    {
-        //        contact.isDeleted = true;
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    return RedirectToPage();
-        //}
+        /// <summary>
+        /// Soft Delete
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IActionResult> OnPostDeleteAsync(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var contact = await _context.Customers.FindAsync(id);
+
+            if (contact != null)
+            {
+                contact.isDeleted = true;
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToPage("Index");
+        }
     }
 }

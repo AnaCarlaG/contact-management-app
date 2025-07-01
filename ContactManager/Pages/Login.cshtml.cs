@@ -33,6 +33,15 @@ namespace ContactManager.Pages
                 var principal = new ClaimsPrincipal(identity);
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+                // Volta para a página originalmente requisitada
+                var returnUrl = HttpContext.Request.Query["ReturnUrl"];
+
+                if (!string.IsNullOrEmpty(returnUrl))
+                {
+                    //return LocalRedirect(returnUrl); //Caso venha de página protegida
+                    return RedirectToPage("/Create");
+                }
                 return RedirectToPage("/Index");
             }
 

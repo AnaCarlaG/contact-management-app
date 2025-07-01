@@ -14,20 +14,20 @@ namespace ContactManager.Data
                  new Customers
                 {
                     Name = "João Silva",
-                    //Contact = "999999999",
-                    //Email = "joao@example.com"
+                    Contact = "999999999",
+                    EmailAddress = "joao@example.com"
                 },
                 new Customers
                 {
                     Name = "Maria Oliveira",
-                    //Contact = "888888888",
-                    //Email = "maria@example.com"
+                    Contact = "888888888",
+                    EmailAddress = "maria@example.com"
                 },
                 new Customers
                 {
                     Name = "Ana Costa",
-                    //Contact = "777777777",
-                    //Email = "ana@example.com"
+                    Contact = "777777777",
+                    EmailAddress = "ana@example.com"
                 }
             };
 

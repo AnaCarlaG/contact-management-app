@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|c:\\users\\topos\\documents\\repositorio\\contact-management-app\\contactmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0C7336A-8A5C-443E-8F00-764047473E60}|ContactManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +62,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:41:04.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T23:37:28.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Details.cshtml.cs",
-              "RelativeToolTip": "Pages\\Details.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T01:40:53.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Edit.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:36:29.435Z",
+              "WhenOpened": "2025-07-01T01:20:09.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T00:55:05.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T00:20:15.098Z",
               "EditorCaption": ""
             },
             {
@@ -87,49 +122,105 @@
               "RelativeDocumentMoniker": "Pages\\Create.cshtml.cs",
               "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\Create.cshtml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:36:22.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T01:12:44.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Logout.cshtml.cs",
-              "RelativeToolTip": "Pages\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Details.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:22:17.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T01:14:34.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Logout.cshtml",
-              "RelativeToolTip": "Pages\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T23:17:39.392Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Models\\Customers.cs",
+              "RelativeDocumentMoniker": "Models\\Customers.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Models\\Customers.cs",
+              "RelativeToolTip": "Models\\Customers.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T00:12:56.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T01:34:49.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:13:49.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T00:38:52.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "Pages\\Login.cshtml",
               "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Pages\\Login.cshtml",
               "RelativeToolTip": "Pages\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T22:50:09.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T00:41:02.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:14:33.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\TOPOS\\Documents\\Repositorio\\contact-management-app\\ContactManager\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T00:18:52.463Z"
             }
           ]
         }

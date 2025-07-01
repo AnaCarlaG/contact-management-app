@@ -3,19 +3,33 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var UseProdDb = builder.Configuration.GetValue<bool>("UseProdDb");
+var connectionString = UseProdDb ?
+                        builder.Configuration.GetConnectionString("MariaDB_Prod") :
+                        builder.Configuration.GetConnectionString("MariaDB_Dev");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySql(builder.Configuration.GetConnectionString("MariaDB"),
-                new MySqlServerVersion(new Version(10, 6))));
+                options.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 6))));
 
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                    options.LoginPath = "/Login";
+                    options.AccessDeniedPath = "/AccessDenied";
+                    });
+
+builder.Services.AddAuthorization();
+
 
 var app = builder.Build();
 
@@ -30,11 +44,6 @@ using (var scope = app.Services.CreateScope())
     DbInitializer.Initialize(context);
 }
 
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                            options.LoginPath = "/Login");
-
-builder.Services.AddAuthorization();
 
 if (app.Environment.IsDevelopment())
 {
@@ -55,11 +64,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapRazorPages();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapRazorPages();
 app.Run();
